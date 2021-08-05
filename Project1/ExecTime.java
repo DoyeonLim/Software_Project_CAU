@@ -19,7 +19,6 @@ public class ExecTime {
       System.out.println(ans);
                
       endTime = System.nanoTime();
-               
       execTime = endTime-startTime;
             
       System.out.println("Execution Time in nano seconds = " + (double)(execTime/N));
@@ -29,14 +28,13 @@ public class ExecTime {
    static String d2x(int n) {
 		
 	   String s = Integer.toHexString(n);
-	   
 	   String hex = "";
 	    
 	   for(int i=0; i<s.length(); i++) {
 		   hex = hex + s.charAt(i) + " ";
 	   }
 	   
-	    return hex;
+	   return hex;
    }
    
 }
