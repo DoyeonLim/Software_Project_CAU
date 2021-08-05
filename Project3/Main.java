@@ -1,4 +1,3 @@
-
 public class Main {
 
 	public static void main(String[] args) {
@@ -7,8 +6,6 @@ public class Main {
 		
 		for(int i=0; i<album.numPhotos(); i++) {
 			album.getPhoto(i).print();
-		}
-
+		}	
 	}
-
 }
